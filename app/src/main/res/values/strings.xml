@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArchitectureSample</string>
+    <string name="module_one">ModuleOne</string>
+    <string name="user_center">UserCenter</string>
+    <string name="module_two">ModuleTwo</string>
+    <string name="module_three">ModuleThree</string>
+
+    <string name="fragment_three">FragmentThree</string>
+</resources>

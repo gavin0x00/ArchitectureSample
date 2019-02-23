@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UserCenter</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">login</string>
+    <string name="input_phone">Please Input Your Phone Number</string>
+    <string name="input_pwd">Please Input Your Password</string>
+    <string name="forget_pwd">Forget Password ?</string>
+    <string name="register">Register</string>
+    <string name="validate">Validation</string>
+    <string name="get_validation_code">Code</string>
+    <string name="validate_failed">ValidateFailed</string>
+    <string name="register_input_pwd">Please Input Your Password</string>
+    <string name="register_input_pwd_again">Please Input Your Password,Again</string>
+    <string name="title_forget_pwd">Forget Password</string>
+    <string name="input_code">Please Input Your Validation Code</string>
+    <string name="submit">submit</string>
+</resources>

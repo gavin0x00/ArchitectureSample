@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--一些常用尺寸-->
+    <dimen name="common_divider_height">1px</dimen>
+    <dimen name="common_divider_width">1px</dimen>
+
+    <dimen name="common_header_bar_height">60dp</dimen>
+    <dimen name="common_bottom_nav_height">60dp</dimen>
+    <dimen name="common_header_bar_title_text_size">24sp</dimen>
+    <dimen name="common_header_bar_title_sub_text_size">22sp</dimen>
+
+    <dimen name="common_icon_height">60dp</dimen>
+    <dimen name="common_icon_width">60dp</dimen>
+    <dimen name="common_line_height">60dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+    <dimen name="common_margin_middle">15dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_padding_middle">10dp</dimen>
+    <dimen name="common_padding_small">5dp</dimen>
+    <dimen name="common_padding_very_small">2dp</dimen>
+    <dimen name="common_radius">6dp</dimen>
+    <dimen name="common_border_size">1px</dimen>
+
+    <dimen name="text_small_size">17sp</dimen>
+    <dimen name="text_middle_size">19sp</dimen>
+    <dimen name="text_big_size">21sp</dimen>
+    <dimen name="text_large_size">23sp</dimen>
+</resources>

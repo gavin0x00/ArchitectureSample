@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.newtrekwang.usercenter">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        >
+        <activity android:name="me.newtrekwang.usercenter.business.login.LoginActivity"/>
+        <activity android:name="me.newtrekwang.usercenter.business.register.RegisterValidateActivity"/>
+        <activity android:name="me.newtrekwang.usercenter.business.forgetpwd.ForgetPwdActivity"/>
+    </application>
+
+</manifest>

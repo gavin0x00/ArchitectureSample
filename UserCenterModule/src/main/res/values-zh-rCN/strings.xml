@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">个人中心</string>
+    <string name="hello_blank_fragment">你好，这是个空碎片</string>
+    <string name="login">登录</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="register">注册</string>
+    <string name="validate">注册验证</string>
+    <string name="get_validation_code">获取验证码</string>
+    <string name="validate_failed">验证失败！</string>
+    <string name="register_input_pwd">请输入密码（6-20位字母或数字）</string>
+    <string name="register_input_pwd_again">请再次输入密码</string>
+    <string name="input_code">请输入短信验证码</string>
+    <string name="submit">提交</string>
+    <string name="title_forget_pwd">忘记密码</string>
+</resources>

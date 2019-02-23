@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">架构模板</string>
+    <string name="module_one">业务1</string>
+    <string name="user_center">个人中心</string>
+    <string name="module_two">模块二</string>
+    <string name="module_three">模块三</string>
+    <string name="fragment_three">碎片三</string>
+</resources>

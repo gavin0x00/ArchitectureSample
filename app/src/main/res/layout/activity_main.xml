@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".business.main.MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/main_fy_container"
+        android:layout_height="wrap_content"/>
+    <View style="@style/DividerFixedHeight"/>
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/main_bottom_nv"
+        app:menu="@menu/main_bottom_nav_memu"
+        android:layout_height="@dimen/common_bottom_nav_height"/>
+</LinearLayout>

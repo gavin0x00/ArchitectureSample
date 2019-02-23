@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_header_bar_height">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_header_bar_height"
+            android:id="@+id/main_toolbar"
+            app:title="@string/title_forget_pwd"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            >
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout android:background="@drawable/border_corner_all"
+        android:layout_margin="@dimen/common_margin"
+        style="@style/MatchWrap.Vertical">
+        <LinearLayout style="@style/MatchWrap.Horizontal">
+            <EditText android:id="@+id/forget_pwd_et_phone"
+                android:background="@null"
+                android:paddingLeft="@dimen/common_padding_small"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/common_line_height"
+                android:hint="@string/input_phone"
+                android:drawableLeft="@drawable/icon_phone"
+                android:drawablePadding="@dimen/common_padding_small"
+                android:layout_weight="1.0"
+                android:inputType="phone"/>
+            <View style="@style/DividerFixedWidth.MarginTopBottom"/>
+            <me.newtrekwang.baselibrary.widgets.ValidateButton
+                android:id="@+id/forget_pwd_btn_get_code"
+                android:layout_width="100dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:text="@string/get_validation_code"/>
+        </LinearLayout>
+        <View style="@style/DividerFixedHeight"/>
+        <EditText android:id="@+id/forget_pwd_et_code"
+            android:background="@null"
+            android:paddingLeft="@dimen/common_padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:hint="@string/input_code"
+            android:drawableLeft="@drawable/icon_verify_code"
+            android:drawablePadding="@dimen/common_padding_small"
+            android:inputType="number"
+            />
+        <View style="@style/DividerFixedHeight"/>
+        <EditText android:id="@+id/forget_pwd_et_pwd"
+            android:background="@null"
+            android:paddingLeft="@dimen/common_padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:hint="@string/register_input_pwd"
+            android:drawableLeft="@drawable/icon_pwd"
+            android:drawablePadding="@dimen/common_padding_small"
+            android:inputType="textPassword"/>
+        <View style="@style/DividerFixedHeight"/>
+        <EditText android:id="@+id/forget_pwd_et_pwd_again"
+            android:background="@null"
+            android:paddingLeft="@dimen/common_padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_line_height"
+            android:hint="@string/register_input_pwd_again"
+            android:drawableLeft="@drawable/icon_pwd"
+            android:drawablePadding="@dimen/common_padding_small"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <Button android:id="@+id/forget_pwd_btn_register"
+        style="@style/FullBtnStyle"
+        android:text="@string/submit"/>
+</LinearLayout>

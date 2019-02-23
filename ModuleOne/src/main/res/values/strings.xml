@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ModuleOne</string>
+
+    <string name="fragment_one">FragmentOne</string>
+</resources>
