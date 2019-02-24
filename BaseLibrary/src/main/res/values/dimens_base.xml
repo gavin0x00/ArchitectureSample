@@ -4,14 +4,14 @@
     <dimen name="common_divider_height">1px</dimen>
     <dimen name="common_divider_width">1px</dimen>
 
-    <dimen name="common_header_bar_height">60dp</dimen>
+    <dimen name="common_header_bar_height">55dp</dimen>
     <dimen name="common_bottom_nav_height">60dp</dimen>
-    <dimen name="common_header_bar_title_text_size">24sp</dimen>
-    <dimen name="common_header_bar_title_sub_text_size">22sp</dimen>
+    <dimen name="common_header_bar_title_text_size">22sp</dimen>
+    <dimen name="common_header_bar_title_sub_text_size">20sp</dimen>
 
     <dimen name="common_icon_height">60dp</dimen>
     <dimen name="common_icon_width">60dp</dimen>
-    <dimen name="common_line_height">60dp</dimen>
+    <dimen name="common_line_height">55dp</dimen>
     <dimen name="common_margin">15dp</dimen>
     <dimen name="common_margin_middle">15dp</dimen>
     <dimen name="common_margin_small">5dp</dimen>
@@ -22,8 +22,8 @@
     <dimen name="common_radius">6dp</dimen>
     <dimen name="common_border_size">1px</dimen>
 
-    <dimen name="text_small_size">17sp</dimen>
-    <dimen name="text_middle_size">19sp</dimen>
-    <dimen name="text_big_size">21sp</dimen>
-    <dimen name="text_large_size">23sp</dimen>
+    <dimen name="text_small_size">14sp</dimen>
+    <dimen name="text_middle_size">16sp</dimen>
+    <dimen name="text_big_size">18sp</dimen>
+    <dimen name="text_large_size">22sp</dimen>
 </resources>
