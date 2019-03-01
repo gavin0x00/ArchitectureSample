@@ -1,5 +1,7 @@
 # Android应用模块化开发说明
 
+**声明一下：这个工程只是提供一种架构设计思想，并不像能那些NB框架一样开箱即用**。
+
 ## 1. 组件化与模块化
 
 对于组件化和模块化，我的理解是：
@@ -11,7 +13,9 @@
 - 模块间解耦、重用；
 - 可单独编译打包某一模块，提升开发效率。
 
-本工程采用模块化开发
+本工程采用我认为的"模块化开发"
+
+**题外话**：我看了很多Android模块化和组件化的文章，还是感觉傻傻分不清楚，我觉得大多数author写的都差不多是我文中这种结构,所以大多数技术博客上的模块化和组件化之间并没有什么界限。
 
 ## 2. 总体架构图
 
@@ -149,15 +153,15 @@ dependencies {
 一些版本号设置
 ```gradle
 build_versions.min_sdk = 19
-build_versions.target_sdk = 27
-build_versions.build_tools = "27.0.3"
+build_versions.target_sdk = 28
+build_versions.build_tools = "28.0.3"
 ```
 
 
 ## 8. 系统适配
 
-暂时支持设定支持Android系统最低为19（Android4.4）,目标系统版本为29（Android 9.0)
-各方面的适配不断完善中...
+暂时支持设定支持Android系统最低为19（Android4.4）,目标系统版本为28（Android 9.0)
+还有很多方面的适配方案就不在这里介绍了。
 
 ## 9. 编码规范
 
@@ -183,3 +187,10 @@ build_versions.build_tools = "27.0.3"
 - **使用此模块的开源项目**：个人正在完善...
 
 
+## 11 改进计划
+
+- 1 目前业务层网络请求方案是用的RxJava+Retrofit+RxLifeCycle+VP，后期想换个官方的LiveData+Retrofit+ViewModel试试。
+
+## 12 目前的问题
+- 移植不够高：比如BaseLibrary这个Module，还不够灵活，如果移植新项目，还是要导入Module源码定制下一些配置后，才能打包成aar为好。
+- aar包引入问题，library Module导了自己编译的aar文件时,对应的application Module也要导改文件，除非aar换成远程依赖导application Module才不用导。对于没有私人Nexus的使用者来说，很不方便。
